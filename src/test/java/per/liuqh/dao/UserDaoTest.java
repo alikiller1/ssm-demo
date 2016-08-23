@@ -16,5 +16,6 @@ public class UserDaoTest extends TestBaseCase{
 	public void test1(){
 		User u=userMapper.selectByPrimaryKey(1);
 		System.out.println(u);
+		//System.out.println(userMapper.countAll());
 	}
 }
